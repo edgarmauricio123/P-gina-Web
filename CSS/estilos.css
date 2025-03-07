@@ -10,3 +10,47 @@
 
     background-color: #c6a49a !important;
 }
+p{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.banner {
+    background-color:#c6a49a;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-container {
+    max-width: 600px; 
+    text-align: left;
+    margin-left: 5%; 
+    color: black;
+}
+
+/* Estilos para los botones "Saber más" y "Contacto" */
+.btn-warning, 
+.btn-outline-light {
+    background-color: #d68189 !important; 
+    border-color: #f4ead5 !important; 
+    color: #000000 !important; 
+    font-family: 'Poppins', sans-serif; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto para ambos botones */
+.btn-warning:hover, 
+.btn-outline-light:hover {
+    background-color: #e94e77 !important; 
+    color: #000000 !important; 
+}
