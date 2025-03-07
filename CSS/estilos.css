@@ -35,3 +35,22 @@ h1{
     margin-left: 5%; 
     color: black;
 }
+
+/* Estilos para los botones "Saber más" y "Contacto" */
+.btn-warning, 
+.btn-outline-light {
+    background-color: #d68189 !important; 
+    border-color: #f4ead5 !important; 
+    color: #000000 !important; 
+    font-family: 'Poppins', sans-serif; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto para ambos botones */
+.btn-warning:hover, 
+.btn-outline-light:hover {
+    background-color: #e94e77 !important; 
+    color: #000000 !important; 
+}
