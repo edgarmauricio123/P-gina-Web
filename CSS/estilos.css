@@ -1,0 +1,37 @@
+.custom-bg {
+    background-color: #E64A70 !important; /* Código del color rosa */
+}
+.button-bg{
+    background-color: #c6e5d9 !important; /* Código del color rosa */
+
+}
+
+.input-bg{
+
+    background-color: #c6a49a !important;
+}
+p{
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 20px;
+
+    
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.banner {
+    background-color:#c6a49a;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.text-container {
+    max-width: 600px; 
+    text-align: left;
+    margin-left: 5%; 
+    color: black;
+}
