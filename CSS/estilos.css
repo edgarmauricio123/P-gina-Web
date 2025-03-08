@@ -54,3 +54,11 @@ h1{
     background-color: #e94e77 !important; 
     color: #000000 !important; 
 }
+
+.img-cafe {
+    border-radius: 20px;
+    width: 450px; 
+    height: auto; 
+    box-shadow: 5px 5px 15px rgba(24, 23, 23, 0.6);
+    margin-left: 50px;
+}
