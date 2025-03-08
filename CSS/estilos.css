@@ -35,3 +35,40 @@ h1{
     margin-left: 5%; 
     color: black;
 }
+
+/* Estilos para los botones "Saber más" y "Contacto" */
+.btn-warning, 
+.btn-outline-light {
+    background-color: #d68189 !important; 
+    border-color: #f4ead5 !important; 
+    color: #000000 !important; 
+    font-family: 'Poppins', sans-serif; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto para ambos botones */
+.btn-warning:hover, 
+.btn-outline-light:hover {
+    background-color: #e94e77 !important; 
+    color: #000000 !important; 
+}
+
+.img-cafe {
+    border-radius: 20px;
+    width: 450px; 
+    height: auto; 
+    box-shadow: 5px 5px 15px rgba(24, 23, 23, 0.6);
+    margin-left: 50px;
+}
+/*estilos para imagenes del carrusel*/
+.d-block{
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(24, 23, 23, 0.6);
+    max-width: 70%;
+    min-width: 350px;
+    max-height: 500px;
+    object-fit: contain;
+    image-rendering: crisp-edges;
+}
