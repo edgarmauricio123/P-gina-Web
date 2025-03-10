@@ -158,3 +158,8 @@ body {
 }
 
 /*Fin de estilos para contactos y direccion(parte final)*/
+
+
+html {
+    scroll-behavior: smooth;
+}
