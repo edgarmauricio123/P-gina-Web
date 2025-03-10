@@ -24,14 +24,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ACERCA DE</a>
+                        <a class="nav-link" href="#acercade">ACERCA DE</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li  class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                            aria-expanded="false" hreflang="#carrusel">
                             CAFES
                         </a>
                         <ul class="dropdown-menu">
@@ -46,7 +46,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">OPINIONES</a>
+                        <a class="nav-link " href="#opinion">OPINIONES</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -56,7 +56,7 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid banner">
+    <div id="inicio" class="container-fluid banner">
         <div class="text-container">
             <h1>El café que mereces, directo a tu taza</h1>
             <p>
@@ -75,7 +75,7 @@
     </div>
 
     <!-- inicio del carrusel  -->
-    <div class="container-fluid" style="background-color: #c6a49a;">
+    <div id="carrusel" class="container-fluid" style="background-color: #c6a49a;">
         <div id="carouselExample" class="carousel slide">
 
             <div class="carousel-indicators">
@@ -117,7 +117,7 @@
     <!-- fin del carrusel -->
 
     <!--Inicio de cuadro de comentarios-->       
-    <form class="p-4 bg-#f4ead5" style="max-width: 700px; width: 100%;">
+    <form id="opinion" class="p-4 bg-#f4ead5" style="max-width: 700px; width: 100%;">
         <div class="row">
             <label class="form-label"><h4>Dejanos un comentario</h4></label>
             <!--Aviso-->
@@ -149,7 +149,7 @@
     </form>
     <!--Fin de cuadro de comentarios-->
     <!-- Inicio de contactos y dirección (parte final) -->
-    <footer>
+    <footer id="acercade">
         <div class="footer">
             <div>
                 <h3>Redes Sociales</h3>
